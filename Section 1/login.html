@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
+
+    <style>
+        .mycard{
+     
+        /* border: 2px solid black; */
+        width: 20%;
+        height: 300px;
+        padding: 30px;
+        /* box-sizing: border-box; */
+        /* margin-left: 650px;
+        margin-top: 250px; */
+        border-radius: 10px;
+        box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.44);
+        background-color: rgba(255, 255, 255, 0.084); 
+        }
+    
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            /* background-color: gray;  */
+            /* background-image: linear-gradient(#003973,#F8CDDA); */
+            background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.147),rgb(67 61 55)),url(https://images.pexels.com/photos/392018/pexels-photo-392018.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            background-size: cover;
+            background-position: bottom ;
+
+        }
+        
+        .myinput{
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border-radius: 2px;
+            border: 1px solid gray;
+            margin-bottom: 20px;
+    
+        }
+        
+        .mybtn{
+         width: 100%;
+         margin-top: 10px;
+         padding: 9px;
+         border-radius: 5px;
+         background-color: red;
+         color: white; 
+         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         cursor:pointer;
+         border: none;
+         
+        }
+
+        .mybtn:active{
+            background-color: rgb(255, 107, 107);
+        }
+
+        .mybtn:focus{
+            outline: 2px solid rgb(255, 134, 134);
+        }
+        
+          
+        .formtitle{
+            text-align: center;
+            font-family: Roboto;
+            font-size: 30px;
+        }
+
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    </style>
+
+</head>
+
+<body>
+    
+    <div class="mycard">
+        <div class="logo" src="https://icons8.com/icon/26218/login">
+
+        </div>
+        <h3 class="formtitle">Login Here</h3>
+        <form>
+
+            <label for="email">Email Address</label>
+            <input type="email" class="myinput">
+
+            
+            <label for="password">Password</label>
+            <input type="password" class="myinput">
+
+            <button type="button" class="mybtn">Submit</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>

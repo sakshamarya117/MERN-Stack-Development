@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+.fourthdiv{
+        background-color: #E2F6CA;
+        border: 2px solid greenyellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+        
+    .firstdiv{
+        border: 3px solid white;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        height: 500px;
+        
+    }
+    .seconddiv{
+        background-color: white;
+        /* border: 2px solid blue; */
+        width: 60%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 30PX;
+
+    }
+    .thirddiv{
+        /* border: 2px solid red;  */
+        width: 40%;
+        height: 300px;
+        background-color: black;        
+    }
+    .contactform{
+        /* border: 2px solid black; */
+        box-sizing: border-box;
+        width: 65%;
+        height: 450px;
+    }
+    .formtitle{
+        /* margin-top: 10px; */
+        text-align: left;
+        font-size: 40px;
+        font-family: sans-serif;
+        color: black;
+    }
+    .myinput{
+        width: 100% ;
+        padding: 8px;      
+        box-sizing: border-box;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    p{
+       margin-bottom: 15px;
+       margin-top:10px ;
+       font-size: 15px;
+    }
+    .mybtn{
+        font-size: 15px;
+        width: 100%;
+        padding: 8px;
+        margin-top: 15px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        border: none;
+        font-family: monospace;
+    }
+    .mybtn:active{
+            background-color: rgb(233, 233, 233);
+        }
+
+        .mybtn:focus{
+            outline: 2px solid rgb(233, 225, 225);
+        }
+        
+    label{
+        font-size: 20px;
+        font: 1em sans-serif;
+    }
+    .infotitle{
+
+        font-size: 30px;
+        color: white;
+        font-family: sans-serif;
+
+    }
+    h4{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: Montserrat;
+        font-size: 15px;
+        box-sizing: border-box;
+        color: white;
+        
+    }
+    .info{
+        margin-top: 20px;
+        border: 2px solid black;
+        margin-left: 30px;
+        width: 80%;
+    }
+    i{
+        margin-right: 15px;
+        margin-left: 2px;
+    }
+    .fifthdiv{
+        background-color: yellow;
+        border: 2px solid yellow;
+        height: 50px;
+        width: 15%;
+        position:relative;
+       /* bottom:250px; */
+       /* left:00px; */
+       /* top: 100px;
+       left: 50px; */
+       bottom: 270px;
+       right: 25px;
+
+    }
+    .sixthdiv{
+        background-color: yellow;
+        border: 2px solid yellow;
+        height: 100px;
+        width: 50%;
+        position:relative;
+       /* bottom:250px; */
+       /* left:00px; */
+       /* top: 100px;
+       left: 50px; */
+              /* right: 50px; */
+       left: 174px;
+       top: -4px;
+       /* bottom: 50px; */
+    }
+    .seventhdiv{
+        background-color: yellow;
+        border: 2px solid yellow;
+        height: 100px;
+        width: 50%;
+        position: relative;
+        left: 174px;
+        bottom: 511px;
+    }
+    .socialmedia{
+        /* border: 2px solid black; */
+        height: 80px;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+
+    }
+    </style>
+</head>
+<body>
+    <div class="fourthdiv">
+
+        <div class="firstdiv">
+            <div class="seconddiv">
+                <div class="contactform">
+                    <h3 class="formtitle">Contact Us</h3>
+                    <p> Kindly reach out to us at your convenience. Our team will respond as promptly as possible!</p>
+                    <label for="username">Name</label>
+                    <input type="username" class="myinput">
+                    <label for="email">Email</label>
+                    <input type="email" class="myinput">
+                    <label for="message">Message</label>
+                    <textarea  cols="20" rows="5" class="myinput"></textarea>
+                    <button type="button" class="mybtn">SEND</button>
+                </div>
+            
+            </div>
+            <div class="thirddiv">
+                <div class="info">
+                    <h4 class="infotitle">Info</h4>
+                    <h4 ><i class="fa fa-envelope" aria-hidden="true"></i>sakshamarya117@gmail.com</h4>
+                    <h4><i class="fa-solid fa-phone"></i>+91 9696382960</h4>
+                    <h4><i class="fa-solid fa-location-dot"></i>somewhere on earth</h4>
+                    <h4><i class="fa-regular fa-clock"></i>10:00-18:00</h4>
+                    <!-- <h3>sakshamarya117@gmail.com</h3> -->
+                    <!-- <label for="email" class="mylabel"></label>
+                    <label for="phone" class="mylabel">91+ 9696382960</label>
+                    <label for="address" class="mylabel">Somewhere on earth</label>
+                    <label for="time" class="mylabel"></label> -->
+                </div>
+                <div class="fifthdiv">
+                
+                </div>
+                <div class="sixthdiv">
+                    <div class="socialmedia">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                    
+                </div>
+                <div class="seventhdiv">
+                
+                </div>
+                                
+            
+            </div>
+        </div>
+
+    </div>
+
+    
+    
+</body>
+</html>
