@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout
+
+    </title>
+
+    <style>
+        .parent {
+            display: grid;
+            /* grid-template-columns: 200px 300px 150px; */
+            /* grid-template-columns: 200% 300% 150%; */
+            /* grid-template-columns: 200px 300px 150px; */
+            grid-template-columns: 2fr 5fr 3fr;
+            /* grid-template-columns: repeat(4, 1fr);  */
+            grid-template-rows: 1fr 1fr 1fr;
+            /* ----------------------------------------------------Repeat function */
+            /* grid-template-columns: 2fr 4fr 3fr; */
+            column-gap: 10px;
+            row-gap: 20px;
+            height: 100vh;
+            padding: 200px;
+        }
+
+        .child {
+            border: 2px solid yellowgreen;
+            /* border-radius: ; */
+            padding: 20px;
+            /* width: 100%; */
+            /* width: 600px; */
+        }
+
+        @media screen and (max-width:1200px) {
+            .parent {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+
+            }
+        }
+
+        @media screen and (max-width:1200px) {
+            .parent {
+                display: grid;
+                grid-template-columns: 100%;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="parent">
+        <div class="child">
+            child1
+        </div>
+        <div class="child">
+            child2
+        </div>
+        <div class="child">
+            child3
+        </div>
+        <!-- <div class="child">
+            child4
+        </div>
+        <div class="child">
+            child5
+        </div>
+        <div class="child">
+            child6
+        </div> -->
+    </div>
+
+</body>
+
+</html>
