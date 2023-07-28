@@ -21,3 +21,17 @@ for(let i of nums.slice(1,3))
 {
     console.log(i**2);
 }
+
+
+//progarm to filter out odd numbers from array
+
+const newArr= [];
+for(let i of nums)
+{
+    if(i%2==0)
+    {
+        newArr.push(i);
+    }
+};
+
+console.log(newArr);
