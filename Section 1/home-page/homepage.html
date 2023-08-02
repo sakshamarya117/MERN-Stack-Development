@@ -1,0 +1,808 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Homepage</title>
+    <style>
+        .Homepage{
+            /* position: rela.tive; */
+            /* background-position: center; */
+            height: 100vh;
+            
+        }
+
+        .home-slide-text{
+            line-height: 36px;
+        }
+        .form-control{
+            border-radius: 0px;
+        }
+
+        /* *{ */
+            /* font-family: Montserrat; */
+        /* } */
+        .subpoints{
+          /* background-color: #14a44d; */
+        /* border:1px solid blueviolet; */
+        /* border: 1px solid #49F283; */
+        border-radius: 20px;
+        margin-bottom: 24px;
+        position: relative;
+        width: 100%;
+        /* transition: top ease 0.5sec; */
+        }
+
+        .subpoints-texts{
+          border: 1px solid #49F283;
+          background: #fff;
+          padding: 20px;
+          border-radius: 20px;
+
+        }
+        .subpoints-texts p{
+          color: #685F78;
+          font-size: 14px;          
+          margin-left: 24px;
+          margin-bottom: 0;
+          font-weight: 500;
+        }
+        .points{
+          margin: 60px;
+          
+        }
+        .section-header{
+          margin: 60px;
+        }
+        .section-text{
+          margin: 60px;
+        }
+        .courses-group{
+          margin-bottom: 24px;
+          padding: 8px;
+          background: #ffffff;
+          border: 1px solid #c4d8ff;
+          border-radius: 10px;
+          /* box-shadow: 0px 4px 34px #e0ebff; */
+          box-shadow: 2px 2px 4px rgba(0, 128, 0, 0.2);
+
+
+        
+        }
+        .courses-two{
+        display: flex;
+        }
+        .course-img
+        {
+          /* height: 100%; */
+          /* width: 100%; */
+        }
+        .course-img img{
+          border-radius: 10px;
+          width: 100%;
+          object-fit: cover;
+          /* align-items: center; */
+          height: 100%;
+          
+          /* border: 2px solid red; */
+        }
+        .trending-price{
+          /* background-color: #14a44d; */
+          position: relative;
+          bottom: 200px;
+          right: 70px;
+        
+        }
+        .course-content-column{
+          position: relative;
+          padding-left: 20px;
+          padding-right: 20px;
+
+        }
+         .rate h3{
+          font-weight: 700;
+          font-size: 20px;
+          color: #14a44d;
+          margin-bottom: 0;
+         }
+         .course-price{
+          font-weight: 500;
+          font-size: 14px;
+          color: #FF602E;
+          margin-bottom: 0;
+         }
+         .course-name{
+          margin-bottom: 16px;
+          padding-bottom: 16px;
+          /* box-sizing: border-box; */
+         }
+
+        .course-name h3 a{
+          /* width: 80%; */
+          font-weight: 700;
+          font-size: 20px;
+          color: #14a44d;
+          display: flex;
+          text-align: start;
+          /* justify-content: flex-start; */
+          /* align-items: start; */
+          margin-bottom: 10px;
+        }
+        .course-duration p{
+
+          /* position: ; */
+          margin-top: 0;
+
+        }
+        .course-content-column{
+         height: 60%;
+         /* border: 1px solid orangered; */
+        }
+        .course-rating{
+          text-align: left;
+        }
+        .form-group {
+          /* border: 2px solid red; */
+          padding: 10px;
+          /* b */
+           display: flex;
+           justify-content: flex-start;
+           height: 80%;
+
+        }
+       
+        label{
+          width: 20%;
+          /* padding-bottom: 20px; */
+        }
+        
+      
+    </style>
+  </head>
+  <!-- <style>
+    
+  </style> -->
+  <body>
+    <!-- -------------------------------------------------Navigation Bar------------------------------------------->
+    <nav class="navbar fixed-top navbar-expand-sm  navbar-light bg-light">
+          <div class="container">
+            <!-- <img src="img/download (11).jpg" alt=""> -->
+            <a href="#" class="navbar-brand mb-0 h1">
+                <img 
+                class="d-inline-block align-top" src="img/istockphoto-872550182-612x612.jpg" alt="Logo" width="30" height="30"/>
+                ExamArc
+             </a>
+             
+             <button 
+                class="navbar-toggler"    
+                type="button"                      
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation"> 
+                    <span 
+                        class="navbar-toggler-icon">
+                    </span>            
+             </button>
+       
+             <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+               
+                    <li class="nav-item active mx-4"> 
+                        
+                        <a href="#" class="nav-link active">
+       
+                            Home
+                        
+                        </a>
+                     
+                    </li>
+                    
+                    <li class="nav-item active dropdown mx-4"> 
+                        
+                       <a href="#" 
+                          class="nav-link dropdown-toggle" 
+                          id="navbarDropdown" 
+                          role="button"
+                          data-bs-toggle="dropdown" 
+                          aria-expanded="false">
+       
+                           Categories
+                       
+                       </a>
+
+                       <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Placement Papers</a></li>
+                        <li><a class="dropdown-item" href="#">Aptitude Test</a></li>
+                        <!-- <li><hr class="dropdown-divider"></li> -->
+                        <li><a class="dropdown-item" href="#">Programming Languages</a></li>
+                      </ul>
+                    
+                   </li>
+       
+                   <li class="nav-item active mx-4"> 
+                        
+                       <a href="#" class="nav-link">
+       
+                           News
+                       
+                       </a>
+                    
+                   </li>
+       
+                   <li class="nav-item active mx-4"> 
+                        
+                       <a href="#" class="nav-link">
+       
+                           Contact
+                       
+                       </a>
+                    
+                   </li>
+       
+       
+                </ul>
+       
+                
+                <form class="d-flex">
+                    <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+                    <a href="homepageloginform.html" class="btn btn-outline-success">Login</a>                    
+                    <button class="btn btn-success ms-2" type="signup">Register</button>
+                  </form>
+             </div>
+            
+          </div>
+        
+    </nav>
+
+    <!-- </nav>   -->
+    <!-- ------------------------------------------------HOME------------------------------------------------------------>
+    <section class="Homepage bg-white d-flex align-items-center">
+        <!-- section -->
+    <!-- ---------------------------------------------------MAIN CONTAINER------------------------------------------------>
+        <div class="container">
+            
+            <div class="row align-items-center">
+              <div class="col">
+                <div class="home-slide-text text-dark">
+                    <h5>The Leader in Online Learning</h5>
+                    <h1 class="display-1 ">Engaging &amp; Accessible Online Courses For All</h1>
+                    <p>Own your future learning new skills online</p>
+                    </div>
+                    <div class="col-6">
+                        <form class="d-flex" role="search">
+                        <input class="form-control" type="search" placeholder="Keyword" aria-label="Search" >
+                        <button class="btn btn-light" type="submit" style="border-radius: 0px;">
+                            <i class="fa-solid fa-magnifying-glass fa-xl" style=" margin-left: 10px;"></i>
+                        </button>
+                      </form>
+
+                    </div>
+                    <div class="trust-user mt-4">
+                        <p>Trusted by over 15K Users <br>worldwide since 2022</p>
+                        <div class="trust-rating d-flex align-items-center">
+                        <div class="rate-head">
+                        <h2><span>1000</span>+</h2>
+                        </div>
+                        <div class="rating d-flex align-items-center">
+                        <h2 class="d-inline-block average-rating">4.4</h2>
+                        <i class="fas fa-star filled"></i>
+                        <i class="fas fa-star filled"></i>
+                        <i class="fas fa-star filled"></i>
+                        <i class="fas fa-star filled"></i>
+                        <i class="fas fa-star filled"></i>
+                        </div>
+                        </div>
+                        </div>
+              </div>
+              <div class="col">
+                <img src="img/5097224.jpg" alt="" class="img-thumbnail">
+              </div>
+             
+            </div>
+          </div>
+          
+
+        </div>
+
+    </section>
+<section id="package" class="pt-md-5">
+   
+    <h2 class="text-center my-5 fw-bold"> Categories</h2>
+    
+    <!-- Container -->
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/4401280.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">IT Placement Papers</h5>
+                      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                      <a href="#" class="btn btn-success mt-2">Get Started</a>
+                    </div>
+                </div>
+        
+            </div>
+                
+            <div class="col-md-4">
+
+                <div class="card">
+                  <img src="img/7686388.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Aptitude Test</h5>
+                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                    <a href="#" class="btn btn-success mt-2">Get Started</a>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                  <img src="img/6502423.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Programming Languages</h5>
+                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                    <a href="#" class="btn btn-success mt-2">Get Started</a>
+                  </div>
+                </div>
+
+            </div>
+        </div>
+    
+
+    </div>
+     <!-- <!-Cards---> 
+    
+</section>
+
+<div class="container w-100 py-5">
+<!-- ----------------------------------------MAIN CONTAINER-------------------------------------------- -->
+  <div class="row align-items-center">
+
+    <div class="col-6 col-md-5">
+    <img src="img/4300580.jpg" alt="" style="height: 600px;" >
+    </div>
+    <div class="col-12 col-md-7" >
+      <div class="section-header">
+            <div class="section-sub-head">
+              <span class="fw-bold text-success">What’s New</span>
+              <h2 class="display-1">Master the skills to drive your career</h2>
+            </div>
+      </div>
+      <div class="section-text">
+            <p>Get certified, master modern tech skills, and level up your career — 
+              whether you’re starting out or a seasoned pro. 95% of eLearning learners 
+              report our hands-on content directly helped their careers.</p>
+      </div>
+      <!-- -----------------------------------------------------Points---------------------------------------- -->
+      <div class="points">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 d-flex">
+            <div class="subpoints d-flex">
+              <div class="subpoints-texts d-flex align-items-center">
+                <div class="icon">
+                  <i class="fa-solid fa-book fa-2xl" style="color: #14a44d;"></i>
+                </div>
+                <p>Preparation for job placement at home.</p>
+              
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 d-flex">
+            <div class="subpoints d-flex">
+              <div class="subpoints-texts d-flex align-items-center">
+                <div class="icon">
+                  <i class="fa-solid fa-book fa-2xl" style="color: #14a44d;"></i>
+                </div>
+                <p>Build skills your way, from labs to courses.</p>
+              
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 d-flex">
+            <div class="subpoints d-flex">
+              <div class="subpoints-texts d-flex align-items-center">
+                <div class="icon">
+                  <i class="fa-solid fa-book fa-2xl" style="color: #14a44d;"></i>
+                </div>
+                <p>Learn anything from anywhere anytime.</p>
+                
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 d-flex">
+            <div class="subpoints d-flex">
+              <div class="subpoints-texts d-flex align-items-center">
+                <div class="icon">
+                  <i class="fa-solid fa-book fa-2xl" style="color: #14a44d;"></i>
+                </div>
+                <p>Certification for solid carrier development. </p>
+              
+              </div>
+
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      </div>
+  </div>
+
+</div>
+     
+
+<div class="container w-100 text-center">
+  <div class="row">
+    <div class="new-courses-section">
+      <span class="fw-bold text-success">New Courses</span>
+      <h2 class="fw-bold">Trending Courses</h2>
+      <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan 
+        bibendum gravida maecenas augue elementum et neque. Suspendisse imperdiet.</p>
+    </div>
+    <!-- --------------------------------------trending-course-main------------------------------------>
+    <div class="course-main">
+      <!-- -------------------------------------------ROW----------------------------------------------- -->
+      <div class="row px-5">
+        <!-- ---------------------------------------------------------------------------------------------------1stCOLUMN--------------------------------------------- -->
+        <div class="col">
+          <!-- --------------------------------------------------------Column Row----------------------------------------- -->
+          <div class="courses-group">
+            <!-- -------------------------------------------------------Course Column------------------------------------------ -->
+            <div class="courses-two">
+              <!--------------------------------------------------------Course Image---------------------------------- -->
+              <div class="course-img">
+                <img src="img/React.jpg" alt="">
+                <div class="trending-price">
+                  <a href="#" class="btn btn-primary mt-2">Purchase</a>
+
+                </div>
+              </div>
+               <!-- ----------------------------------------------------Course Content Column------------------------------------>
+              <div class="course-content-column">
+                  <div class="course-rating mb-2">
+                    <i class="fa-solid fa-star" style="color: #14a44d;"></i>
+                    <i class="fa-solid fa-star" style="color: #14a44d;"></i>
+                    <i class="fa-solid fa-star" style="color: #14a44d;"></i>
+                    <i class="fa-solid fa-star" style="color: #14a44d;"></i>
+                    <i class="fa-solid fa-star" style="color: #14a44d;"></i>
+                    <span class="ms-2">243 reviews</span>
+                  </div>
+                  <!-- ----------------------------------------------------Course Name------------------------------------------->
+                  <div class="course-name" >
+                    <h3 class="title fw-bold">
+                      <a href="">REACT for Beginners - Master REACT Quickly</a>
+                    </h3>
+                    <div class="course-duration d-flex">
+                    <span><i class="fa-regular fa-clock" style="color: #14a44d;"></i></span>
+                    <p class="ms-2"> 6 Months</p>
+                  </div>
+                  </div>
+                  
+                  <div class="d-flex align-items-center">
+                    <div class="course-price d-flex align-items-center">
+                     <p>Christopher Nolen</p>
+                    </div>
+                    <div class="price d-inline-flex align-items-center ms-auto">
+                      <div class="rate">
+                        <h3>₹13000</h3>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <!-- --------------------------------------------------------------------------------------------------------------------------------------END OF 1STCOLUMN -->
+        </div>
+        <div class="col">
+          <div class="col">
+            <!-- --------------------------------------------------------Column Row----------------------------------------- -->
+            <div class="courses-group">
+              <!-- -------------------------------------------------------Course Column------------------------------------------ -->
+              <div class="courses-two">
+                <!--------------------------------------------------------Course Image---------------------------------- -->
+                <div class="course-img">
+                  <img src="img/React.jpg" alt="">
+                  <div class="trending-price">
+                    <a href="#" class="btn btn-danger mt-2">Purchase</a>
+  
+                  </div>
+                </div>
+                 <!-- ----------------------------------------------------Course Content Column------------------------------------>
+                <div class="course-content-column">
+                    <div class="course-rating mb-2">
+                      <i class="fa-solid fa-star" style="color: #14a44d;"></i>
+                      <i class="fa-solid fa-star" style="color: #14a44d;"></i>
+                      <i class="fa-solid fa-star" style="color: #14a44d;"></i>
+                      <i class="fa-solid fa-star" style="color: #14a44d;"></i>
+                      <i class="fa-solid fa-star" style="color: #14a44d;"></i>
+                      <span class="ms-2">243 reviews</span>
+                    </div>
+                    <!-- ----------------------------------------------------Course Name------------------------------------------->
+                    <div class="course-name" >
+                      <h3 class="title fw-bold">
+                        <a href="">Quick Mastery Guide for Angular Beginners</a>
+                      </h3>
+                      <div class="course-duration d-flex">
+                      <span><i class="fa-regular fa-clock" style="color: #14a44d;"></i></span>
+                      <p class="ms-2"> 6 Months</p>
+                    </div>
+                    </div>
+                    
+                    <div class="d-flex align-items-center">
+                      <div class="course-price d-flex align-items-center">
+                       <p>Christopher Nolen</p>
+                      </div>
+                      <div class="price d-inline-flex align-items-center ms-auto">
+                        <div class="rate">
+                          <h3>₹13000</h3>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        <!-------------------------------------------------------------------------------------------------------------------------------End of 2nd Column---------------->
+      </div>
+      <div class="row px-5">
+        <!-- -----------------------------------------------3D COLUMN--------------------------------------------- -->
+        <div class="col">
+          <!-- --------------------------------------------------------Column Row----------------------------------------- -->
+          <div class="courses-group">
+            <!-- -------------------------------------------------------Course Column------------------------------------------ -->
+            <div class="courses-two">
+              <!--------------------------------------------------------Course Image---------------------------------- -->
+              <div class="course-img">
+                <img src="img/React.jpg" alt="">
+                <div class="trending-price">
+                  <a href="#" class="btn btn-warning mt-2">Purchase
+                  </a>
+
+                </div>
+              </div>
+               <!-- ----------------------------------------------------Course Content Column------------------------------------>
+              <div class="course-content-column">
+                  <div class="course-rating mb-2">
+                    <i class="fa-solid fa-star" style="color: #14a44d;"></i>
+                    <i class="fa-solid fa-star" style="color: #14a44d;"></i>
+                    <i class="fa-solid fa-star" style="color: #14a44d;"></i>
+                    <i class="fa-solid fa-star" style="color: #14a44d;"></i>
+                    <i class="fa-solid fa-star" style="color: #14a44d;"></i>
+                    <span class="ms-2">243 reviews</span>
+                  </div>
+                  <!-- ----------------------------------------------------Course Name------------------------------------------->
+                  <div class="course-name" >
+                    <h3 class="title fw-bold">
+                      <a href="">Quick Mastery of HTML, CSS & JS - Beginners</a>
+                    </h3>
+                    <div class="course-duration d-flex">
+                    <span><i class="fa-regular fa-clock" style="color: #14a44d;"></i></span>
+                    <p class="ms-2"> 6 Months</p>
+                  </div>
+                  </div>
+                  
+                  <div class="d-flex align-items-center">
+                    <div class="course-price d-flex align-items-center">
+                     <p>Christopher Nolen</p>
+                    </div>
+                    <div class="price d-inline-flex align-items-center ms-auto">
+                      <div class="rate">
+                        <h3>₹13000</h3>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col">
+          <div class="col">
+            <!-- --------------------------------------------------------Column Row----------------------------------------- -->
+            <div class="courses-group">
+              <!-- -------------------------------------------------------Course Column------------------------------------------ -->
+              <div class="courses-two">
+                <!--------------------------------------------------------Course Image---------------------------------- -->
+                <div class="course-img">
+                  <img src="img/React.jpg" alt="">
+                  <div class="trending-price">
+                    <a href="#" class="btn mt-2 " style=" background-color: #0de137;">Purchase</a>
+  
+                  </div>
+                </div>
+                 <!-- ----------------------------------------------------Course Content Column------------------------------------>
+                <div class="course-content-column">
+                    <div class="course-rating mb-2">
+                      <i class="fa-solid fa-star" style="color: #14a44d;"></i>
+                      <i class="fa-solid fa-star" style="color: #14a44d;"></i>
+                      <i class="fa-solid fa-star" style="color: #14a44d;"></i>
+                      <i class="fa-solid fa-star" style="color: #14a44d;"></i>
+                      <i class="fa-solid fa-star" style="color: #14a44d;"></i>
+                      <span class="ms-2">243 reviews</span>
+                    </div>
+                    <!-- ----------------------------------------------------Course Name------------------------------------------->
+                    <div class="course-name" >
+                      <h3 class="title fw-bold">
+                        <a href="">Join the World of UI/UX Design - Beginners</a>
+                      </h3>
+                      <div class="course-duration d-flex">
+                      <span><i class="fa-regular fa-clock" style="color: #14a44d;"></i></span>
+                      <p class="ms-2"> 6 Months</p>
+                    </div>
+                    </div>
+                    
+                    <div class="d-flex align-items-center">
+                      <div class="course-price d-flex align-items-center">
+                       <p>Christopher Nolen</p>
+                      </div>
+                      <div class="price d-inline-flex align-items-center ms-auto">
+                        <div class="rate">
+                          <h3>₹13000</h3>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        
+      
+    </div>
+    <button type="button" class="btn btn-success">Explore All Courses</button>
+    
+  </div>
+</div>
+
+
+<div class="container mt-5">
+  <div class="container mt-5 py-5">
+    <h2 class="inss-title fw-bold">Latest News & Blogs</h2>
+  </div>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-6 col-lg-3">
+      <div class="card">
+        <img src="img/6502420.jpg" class="card-img-top" alt="Image 1">
+        <div class="card-body">
+          <h5 class="card-title">Blog Post 1</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#" class="btn btn-success">Read More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3">
+      <div class="card">
+        <img src="img/7138890.jpg" class="card-img-top" alt="Image 2">
+        <div class="card-body">
+          <h5 class="card-title">Blog Post 2</h5>
+          <p class="card-text">Vestibulum rhoncus velit nec arcu gravida.</p>
+          <a href="#" class="btn btn-success">Read More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3">
+      <div class="card">
+        <img src="img/7922055.jpg" class="card-img-top" alt="Image 3">
+        <div class="card-body">
+          <h5 class="card-title">Blog Post 3</h5>
+          <p class="card-text">Nullam gravida tincidunt elit ac interdum.</p>
+          <a href="#" class="btn btn-success">Read More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3">
+      <div class="card">
+        <img src="img/6057197.jpg" class="card-img-top" alt="Image 4">
+        <div class="card-body">
+          <h5 class="card-title">Blog Post 4</h5>
+          <p class="card-text">Fusce varius ultricies mauris, nec commodo neque cursus.</p>
+      <a href="#" class="btn btn-success">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <!-- About Us Section -->
+  <section id="about-us" class=" py-5 mt-4">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt erat et purus volutpat, in euismod sem aliquam.
+            Vestibulum in hendrerit felis. Duis rhoncus feugiat dui sit amet vestibulum. Nulla facilisi. Sed et interdum ex.
+          </p>
+          <div class="col py-5">
+            <h2>Get in Touch</h2>
+            <form>
+              <div class="form-group mt-4">
+                <label for="name">Name:
+                </label>
+                  <input type="text" class="form-control mb-3" id="name" placeholder="Enter your name" required>
+                
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control mb-3" id="email" placeholder="Enter your email" required>
+              </div>
+              <div class="form-group">
+                <label for="message mt-4">Message:</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Enter your message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-success w-25 mt-4">Submit</button>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="img/8878488.jpg" class="img-fluid" alt="About Us Image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<div class="foot bg-success ">
+  <footer class="footer bg-success text-light py-3">
+    <div class="container text-center">
+      <p>© 2023 ExamArc. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
