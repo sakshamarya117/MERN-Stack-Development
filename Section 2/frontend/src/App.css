@@ -1,0 +1,161 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+*{
+  font-family: Montserrat;
+  font-size: 20px;
+}
+.nav-item .active{
+  font-weight: bold;
+  border-bottom: 2px solid blueviolet;
+  color: blueviolet !important;
+  
+  
+}
+
+.add-like-div{
+  /* background-color: rgb(0, 250, 42); */
+  
+  /* border: 2px solid chocolate; */
+  /* position: absolute; */
+
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+
+}
+.add-like-div .row{
+  
+  /* position: absolute; */
+  align-items: center;
+  /* border: 1px solid black; */
+
+}
+
+.background-image{
+  height: 100vh;
+  width: 100%;
+  /* background-size:contain; */
+
+  /* position: relative; */
+}
+.home-div{
+  
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.home-div img{
+  /* border: 2px solid white; */
+  display: flex;
+  flex-direction: column;
+
+}
+.home-div div{
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid white; */
+  /* align-items: center; */
+  position: absolute;
+  /* display: block; */
+  align-items: center;
+  justify-content: center;
+}
+.logo{
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+}
+.container{
+  border: 1px solid rgb(188, 188, 188);
+  border-radius: 5px;
+  height: 500px;
+  width: 40%;
+  
+}
+.row1{
+  margin-top: 10px;
+ /* border: 2px solid red; */
+ height: 60px;
+ display: flex;
+ 
+}
+.row2{
+  /* border: 2px solid blue;  */
+ }
+ .row3{
+  border-bottom: 1px solid gray; 
+  margin-top: 5px;
+ }
+ 
+ .row1 h6{
+  font-size: 16px;
+ }
+ .row1 p{
+  font-size: 12px;
+ }
+ .row3{
+  display: flex;
+
+ }
+ .row3 h6{
+  font-size: 16px;
+ }
+.row2 p{
+  font-size: 16px;
+}
+
+.btnlike{
+  width: 100px;
+  font-size: 16px;
+}
+.btncomment{
+  width: 140px;
+  font-size: 16px;
+}
+.post-image{
+  height: 300px;
+  width: 100%;
+}
